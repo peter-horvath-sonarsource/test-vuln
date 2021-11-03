@@ -21,3 +21,9 @@ def hello():
     user = query.one()
     return "Hello %s" % user.username
 
+
+import tempfile
+
+filename = tempfile.mktemp() # Noncompliant
+tmp_file = open(filename, "w+")
+
