@@ -14,3 +14,19 @@ def index2():
 def index3():
     module = request.args.get("module")
     exec("import urllib%s as urllib" % module) # Noncompliant\
+
+
+@app.route('/')
+def index4():
+    module = request.args.get("module")
+    exec("import urllib%s as urllib" % module) # Noncompliant\
+
+@app.route('/')
+def index5():
+    module = request.args.get("module")
+    exec("import urllib%s as urllib" % module) # Noncompliant\
+
+@app.route('/')
+def index6():
+    module = request.args.get("module")
+    exec("import urllib%s as urllib" % module) # Noncompliant\
