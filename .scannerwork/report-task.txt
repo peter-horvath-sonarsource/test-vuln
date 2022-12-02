@@ -1,7 +1,7 @@
-organization=peter-horvath-sonarsource-1
+organization=peter-horvath-sonarsource-new-key
 projectKey=peter-horvath-sonarsource_test-vuln
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.34856
-dashboardUrl=https://sonarcloud.io/dashboard?id=peter-horvath-sonarsource_test-vuln
-ceTaskId=AYSff0Fxg9h3UWcy-LnU
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYSff0Fxg9h3UWcy-LnU
+serverUrl=https://sc-staging.io
+serverVersion=8.0.0.35220
+dashboardUrl=https://sc-staging.io/dashboard?id=peter-horvath-sonarsource_test-vuln
+ceTaskId=AYTSER5EIqYzqf2L8WRM
+ceTaskUrl=https://sc-staging.io/api/ce/task?id=AYTSER5EIqYzqf2L8WRM
